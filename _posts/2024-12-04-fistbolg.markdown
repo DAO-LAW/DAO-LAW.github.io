@@ -1,0 +1,17 @@
+---
+layout:       post
+title:        "我的格言"
+author:       "Ning"
+header-style: text
+catalog:      true
+tags:
+    - Web
+    - JavaScript
+---
+
+> 第一篇博客。
+
+尊重规律
+信息差信息差信息差
+
+— 小赵，新博客。
