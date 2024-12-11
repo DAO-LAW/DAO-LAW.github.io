@@ -3,24 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Index Page</title>
+    <title>Usain Bolt Inspired Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+            background-color: #222;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: #f4f4f9;
+            height: 70vh;
+            background: url('https://usainbolt.com/wp-content/themes/usainbolt/assets/images/bg.jpg') no-repeat center center/cover;
+            text-align: center;
         }
-        h1 {
-            color: #333;
+        .hero h2 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Simple Page</h1>
+    <header>
+        <h1>Usain Bolt</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>The Fastest Man in the World</h2>
+    </div>
+    <footer>
+        <p>&copy; 2024 Usain Bolt Fan Page</p>
+    </footer>
 </body>
 </html>
